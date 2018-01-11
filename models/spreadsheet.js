@@ -4,6 +4,7 @@ var Mixed       = mongoose.Schema.Types.Mixed;
 
 //Define our model
 const spreadSheetSchema = new Schema({
+    headerData: {type: Mixed},
     jsonData: {type: Mixed}
 });
 
